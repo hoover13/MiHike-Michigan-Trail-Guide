@@ -9,7 +9,32 @@ import SwiftUI
 
 struct MainTabView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        TabView {
+            TrailView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "signpost.right.fill")
+                        Text("Trails")
+                    }
+                }
+            
+            MapView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "map.fill")
+                        Text("Map")
+                    }
+                }
+            
+            TipsView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "lightbulb")
+                        Text("Tips")
+                    }
+                }
+        }
     }
 }
 

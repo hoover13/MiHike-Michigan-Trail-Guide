@@ -8,19 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		1613436B2B6C9CF100CA3B65 /* MiHikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1613436A2B6C9CF100CA3B65 /* MiHikeApp.swift */; };
-		1613436D2B6C9CF100CA3B65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1613436C2B6C9CF100CA3B65 /* ContentView.swift */; };
 		1613436F2B6C9CF200CA3B65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1613436E2B6C9CF200CA3B65 /* Assets.xcassets */; };
 		161343722B6C9CF200CA3B65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161343712B6C9CF200CA3B65 /* Preview Assets.xcassets */; };
 		161343A12B6D760900CA3B65 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161343A02B6D760900CA3B65 /* SplashScreenView.swift */; };
+		161343A32B6D7D8F00CA3B65 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161343A22B6D7D8F00CA3B65 /* MainTabView.swift */; };
+		161343A52B6D7DA600CA3B65 /* TrailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161343A42B6D7DA600CA3B65 /* TrailView.swift */; };
+		161343A72B6D7DB100CA3B65 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161343A62B6D7DB100CA3B65 /* MapView.swift */; };
+		161343A92B6D7DC300CA3B65 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161343A82B6D7DC300CA3B65 /* TipsView.swift */; };
+		161343AB2B6D7EF500CA3B65 /* Trail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161343AA2B6D7EF500CA3B65 /* Trail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		161343672B6C9CF100CA3B65 /* MiHike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiHike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1613436A2B6C9CF100CA3B65 /* MiHikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiHikeApp.swift; sourceTree = "<group>"; };
-		1613436C2B6C9CF100CA3B65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1613436E2B6C9CF200CA3B65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		161343712B6C9CF200CA3B65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		161343A02B6D760900CA3B65 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		161343A22B6D7D8F00CA3B65 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		161343A42B6D7DA600CA3B65 /* TrailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailView.swift; sourceTree = "<group>"; };
+		161343A62B6D7DB100CA3B65 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		161343A82B6D7DC300CA3B65 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+		161343AA2B6D7EF500CA3B65 /* Trail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +62,13 @@
 			isa = PBXGroup;
 			children = (
 				1613436A2B6C9CF100CA3B65 /* MiHikeApp.swift */,
-				1613436C2B6C9CF100CA3B65 /* ContentView.swift */,
 				1613436E2B6C9CF200CA3B65 /* Assets.xcassets */,
 				161343A02B6D760900CA3B65 /* SplashScreenView.swift */,
+				161343A22B6D7D8F00CA3B65 /* MainTabView.swift */,
+				161343A42B6D7DA600CA3B65 /* TrailView.swift */,
+				161343AA2B6D7EF500CA3B65 /* Trail.swift */,
+				161343A62B6D7DB100CA3B65 /* MapView.swift */,
+				161343A82B6D7DC300CA3B65 /* TipsView.swift */,
 				161343702B6C9CF200CA3B65 /* Preview Content */,
 			);
 			path = MiHike;
@@ -140,9 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1613436D2B6C9CF100CA3B65 /* ContentView.swift in Sources */,
+				161343A72B6D7DB100CA3B65 /* MapView.swift in Sources */,
+				161343AB2B6D7EF500CA3B65 /* Trail.swift in Sources */,
 				1613436B2B6C9CF100CA3B65 /* MiHikeApp.swift in Sources */,
 				161343A12B6D760900CA3B65 /* SplashScreenView.swift in Sources */,
+				161343A92B6D7DC300CA3B65 /* TipsView.swift in Sources */,
+				161343A52B6D7DA600CA3B65 /* TrailView.swift in Sources */,
+				161343A32B6D7D8F00CA3B65 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
