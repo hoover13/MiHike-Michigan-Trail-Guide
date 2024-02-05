@@ -14,8 +14,9 @@
 		161343A32B6D7D8F00CA3B65 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161343A22B6D7D8F00CA3B65 /* MainTabView.swift */; };
 		161343A52B6D7DA600CA3B65 /* TrailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161343A42B6D7DA600CA3B65 /* TrailView.swift */; };
 		161343A72B6D7DB100CA3B65 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161343A62B6D7DB100CA3B65 /* MapView.swift */; };
-		161343A92B6D7DC300CA3B65 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161343A82B6D7DC300CA3B65 /* TipsView.swift */; };
 		161343AB2B6D7EF500CA3B65 /* Trail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161343AA2B6D7EF500CA3B65 /* Trail.swift */; };
+		1658DD842B71021A000717B9 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1658DD832B71021A000717B9 /* TipsView.swift */; };
+		1658DD862B7102AF000717B9 /* TipsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1658DD852B7102AF000717B9 /* TipsCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +28,9 @@
 		161343A22B6D7D8F00CA3B65 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		161343A42B6D7DA600CA3B65 /* TrailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailView.swift; sourceTree = "<group>"; };
 		161343A62B6D7DB100CA3B65 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		161343A82B6D7DC300CA3B65 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		161343AA2B6D7EF500CA3B65 /* Trail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trail.swift; sourceTree = "<group>"; };
+		1658DD832B71021A000717B9 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+		1658DD852B7102AF000717B9 /* TipsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +67,11 @@
 				1613436E2B6C9CF200CA3B65 /* Assets.xcassets */,
 				161343A02B6D760900CA3B65 /* SplashScreenView.swift */,
 				161343A22B6D7D8F00CA3B65 /* MainTabView.swift */,
+				1658DD832B71021A000717B9 /* TipsView.swift */,
+				1658DD852B7102AF000717B9 /* TipsCardView.swift */,
 				161343A42B6D7DA600CA3B65 /* TrailView.swift */,
 				161343AA2B6D7EF500CA3B65 /* Trail.swift */,
 				161343A62B6D7DB100CA3B65 /* MapView.swift */,
-				161343A82B6D7DC300CA3B65 /* TipsView.swift */,
 				161343702B6C9CF200CA3B65 /* Preview Content */,
 			);
 			path = MiHike;
@@ -153,10 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				161343A72B6D7DB100CA3B65 /* MapView.swift in Sources */,
+				1658DD862B7102AF000717B9 /* TipsCardView.swift in Sources */,
 				161343AB2B6D7EF500CA3B65 /* Trail.swift in Sources */,
+				1658DD842B71021A000717B9 /* TipsView.swift in Sources */,
 				1613436B2B6C9CF100CA3B65 /* MiHikeApp.swift in Sources */,
 				161343A12B6D760900CA3B65 /* SplashScreenView.swift in Sources */,
-				161343A92B6D7DC300CA3B65 /* TipsView.swift in Sources */,
 				161343A52B6D7DA600CA3B65 /* TrailView.swift in Sources */,
 				161343A32B6D7D8F00CA3B65 /* MainTabView.swift in Sources */,
 			);
