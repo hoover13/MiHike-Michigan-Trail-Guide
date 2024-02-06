@@ -22,7 +22,7 @@ struct MainTabView: View {
                 }
                 .tag(1)
             
-            MapView(tabSelection: $tabSelection)
+            MapView(tabSelection: $tabSelection, trail: Trail(name: "Kensington Metropark", imageName: "Kensington", city: "Milford, MI", skillLevel: .green,latitude: 42.524785600495,longitude: -83.64220030267423, trailType: "Paved", length: 9.5, price: "Requires State Park Pass"))
                 .tabItem {
                     VStack {
                         Image(systemName: "map.fill")
