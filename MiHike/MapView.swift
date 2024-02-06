@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct MapView: View {
+    @Binding var tabSelection: Int
     var body: some View {
         Text("Map View")
     }
 }
 
-#Preview {
-    MapView()
-}
+//#Preview {
+//    MapView()
+//}

@@ -17,6 +17,8 @@
 		161343AB2B6D7EF500CA3B65 /* Trail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161343AA2B6D7EF500CA3B65 /* Trail.swift */; };
 		1658DD842B71021A000717B9 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1658DD832B71021A000717B9 /* TipsView.swift */; };
 		1658DD862B7102AF000717B9 /* TipsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1658DD852B7102AF000717B9 /* TipsCardView.swift */; };
+		1658DD882B710B41000717B9 /* TrailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1658DD872B710B41000717B9 /* TrailRow.swift */; };
+		1658DD8A2B7115DC000717B9 /* TrailDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1658DD892B7115DC000717B9 /* TrailDetailRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		161343AA2B6D7EF500CA3B65 /* Trail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trail.swift; sourceTree = "<group>"; };
 		1658DD832B71021A000717B9 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		1658DD852B7102AF000717B9 /* TipsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsCardView.swift; sourceTree = "<group>"; };
+		1658DD872B710B41000717B9 /* TrailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailRow.swift; sourceTree = "<group>"; };
+		1658DD892B7115DC000717B9 /* TrailDetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailDetailRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +68,10 @@
 			isa = PBXGroup;
 			children = (
 				1613436A2B6C9CF100CA3B65 /* MiHikeApp.swift */,
-				1613436E2B6C9CF200CA3B65 /* Assets.xcassets */,
-				161343A02B6D760900CA3B65 /* SplashScreenView.swift */,
-				161343A22B6D7D8F00CA3B65 /* MainTabView.swift */,
-				1658DD832B71021A000717B9 /* TipsView.swift */,
-				1658DD852B7102AF000717B9 /* TipsCardView.swift */,
-				161343A42B6D7DA600CA3B65 /* TrailView.swift */,
-				161343AA2B6D7EF500CA3B65 /* Trail.swift */,
+				1658DD8C2B711601000717B9 /* Views */,
 				161343A62B6D7DB100CA3B65 /* MapView.swift */,
+				1658DD8B2B7115F4000717B9 /* Models */,
+				1613436E2B6C9CF200CA3B65 /* Assets.xcassets */,
 				161343702B6C9CF200CA3B65 /* Preview Content */,
 			);
 			path = MiHike;
@@ -83,6 +83,44 @@
 				161343712B6C9CF200CA3B65 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1658DD8B2B7115F4000717B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				161343AA2B6D7EF500CA3B65 /* Trail.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1658DD8C2B711601000717B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				161343A02B6D760900CA3B65 /* SplashScreenView.swift */,
+				161343A22B6D7D8F00CA3B65 /* MainTabView.swift */,
+				1658DD8E2B711646000717B9 /* Trails */,
+				1658DD8D2B711631000717B9 /* Tips */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1658DD8D2B711631000717B9 /* Tips */ = {
+			isa = PBXGroup;
+			children = (
+				1658DD832B71021A000717B9 /* TipsView.swift */,
+				1658DD852B7102AF000717B9 /* TipsCardView.swift */,
+			);
+			path = Tips;
+			sourceTree = "<group>";
+		};
+		1658DD8E2B711646000717B9 /* Trails */ = {
+			isa = PBXGroup;
+			children = (
+				161343A42B6D7DA600CA3B65 /* TrailView.swift */,
+				1658DD872B710B41000717B9 /* TrailRow.swift */,
+				1658DD892B7115DC000717B9 /* TrailDetailRow.swift */,
+			);
+			path = Trails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +197,8 @@
 				1658DD862B7102AF000717B9 /* TipsCardView.swift in Sources */,
 				161343AB2B6D7EF500CA3B65 /* Trail.swift in Sources */,
 				1658DD842B71021A000717B9 /* TipsView.swift in Sources */,
+				1658DD8A2B7115DC000717B9 /* TrailDetailRow.swift in Sources */,
+				1658DD882B710B41000717B9 /* TrailRow.swift in Sources */,
 				1613436B2B6C9CF100CA3B65 /* MiHikeApp.swift in Sources */,
 				161343A12B6D760900CA3B65 /* SplashScreenView.swift in Sources */,
 				161343A52B6D7DA600CA3B65 /* TrailView.swift in Sources */,

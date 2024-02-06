@@ -8,24 +8,28 @@
 import SwiftUI
 
 struct MainTabView: View {
+    @State var tabSelection = 1
+    
     var body: some View {
         
-        TabView {
-            TrailView()
+        TabView(selection: $tabSelection) {
+            TrailView(tabSelection: $tabSelection)
                 .tabItem {
                     VStack {
                         Image(systemName: "signpost.right.fill")
                         Text("Trails")
                     }
                 }
+                .tag(1)
             
-            MapView()
+            MapView(tabSelection: $tabSelection)
                 .tabItem {
                     VStack {
                         Image(systemName: "map.fill")
                         Text("Map")
                     }
                 }
+                .tag(2)
             
             TipsView()
                 .tabItem {
@@ -34,6 +38,7 @@ struct MainTabView: View {
                         Text("Tips")
                     }
                 }
+                .tag(3)
         }
     }
 }
