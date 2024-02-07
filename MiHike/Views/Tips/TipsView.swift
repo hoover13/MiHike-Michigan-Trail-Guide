@@ -8,7 +8,7 @@
 import SwiftUI 
 
 struct TipsView: View {
-    private var people: [String] = ["Research the trail and weather conditions before you go.","Wear moisture-wicking clothes and sturdy, comfortable hiking boots or shoes.","Carry a backpack with essentials like water, snacks, a map, a compass, and a first-aid kit.","Drink plenty of water before, during, and after your hike.","Use sunscreen, sunglasses, and a hat to protect yourself from sunburn.","Begin your hike early in the morning to avoid the hottest part of the day and to have enough daylight."].reversed()
+    private var people: [String] = ["Pick the right trail difficulty for you.","Bring water, food, and the appropriate equipment.","Know the environment you will be hiking in.","Hike with a friend or be prepared to hike solo.","Have a trip plan","Dress for the weather","Have a plan B.","Check for park alerts.","Acclimate to new altitudes.","Let the slowest hiker set the pace","Keep track of your time and distance.","Yield to uphill hikers.","Take breaks often","Take your time and watch your step.","Avoid rapid waters and slippery slopes.","Spray bug spray and check for ticks","Be aware of wildlife."].reversed()
       
     var body: some View { 
         VStack {
