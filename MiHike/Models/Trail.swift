@@ -25,10 +25,10 @@ struct Trail: Identifiable {
 
 var trails: [Trail] = [
     Trail(name: "Maybury State Park", imageName: "MayburyState", city: "Novi, MI", skillLevel: .green, latitude: 42.43197913979756,longitude: -83.54039853405433, trailType: "Paved", length: 8, price: "Requires State Park Pass"),
-    Trail(name: "Bald Mountain", imageName: "Baldmountainloop", city: "Orion Township, MI", skillLevel: .yellow, latitude: 42.74303287050017,longitude: -83.23514290612218, trailType: "Rugged", length: 6.7, price: "Permit or State Park Pass"),
-    Trail(name: "Paint Creek Trail", imageName: "paintcreek", city: "Rochester, M", skillLevel: .yellow,latitude: 42.767183673349216,longitude: -83.21892268334256, trailType: "Pavement, Gravel", length: 8.9, price: "State Pass"),
+    Trail(name: "Bald Mountain", imageName: "Baldmountainloop", city: "Oakland County", skillLevel: .yellow, latitude: 42.74303287050017,longitude: -83.23514290612218, trailType: "Rugged", length: 6.7, price: "Requires State Park Pass"),
+    Trail(name: "Paint Creek Trail", imageName: "paintcreek", city: "Rochester, MI", skillLevel: .yellow,latitude: 42.767183673349216,longitude: -83.21892268334256, trailType: "Pavement, Gravel", length: 8.9, price: "Requires State Park Pass"),
     Trail(name: "Dequindre Cut", imageName: "Dequindre", city: "Detroit, MI", skillLevel: .green, latitude: 42.333385466758145 ,longitude: -83.02667005217732 , trailType: "Paved", length: 2, price: "State Pass"),
-    Trail(name: "Kensington Metropark", imageName: "Kensington", city: "Milford, MI", skillLevel: .green,latitude: 42.524785600495,longitude: -83.64220030267423, trailType: "Paved", length: 9.5, price: "State Pass")
+    Trail(name: "Kensington Metropark", imageName: "Kensington", city: "Milford, MI", skillLevel: .green,latitude: 42.524785600495,longitude: -83.64220030267423, trailType: "Paved", length: 9.5, price: "Requires Metropark Pass")
 ]
 
 //image , city, skill level, name

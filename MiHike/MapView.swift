@@ -17,7 +17,14 @@ struct MapView: View {
     var body: some View {
         
         VStack {
-            Map()
+            Map() {
+                
+                if trailFilter.selectedTrail != nil {
+                    let tower = CLLocationCoordinate2D(latitude: trailFilter.selectedTrail!.latitude, longitude: trailFilter.selectedTrail!.longitude)
+                    Marker(trailFilter.selectedTrail!.name,systemImage: "tree",coordinate: tower)
+                        .tint(.green)
+                }
+            }
             
             if let trail = trailFilter.selectedTrail {
                 VStack(alignment: .leading) {
@@ -31,7 +38,7 @@ struct MapView: View {
                             .background(.brown)
                             .cornerRadius(20)
                         VStack(alignment: .leading) {
-                            Text(trailFilter.selectedTrail!.name)
+                            Text(trailFilter.selectedTrail!.city)
                             Text("Length: \(trail.length, specifier: "%.1f") miles")
                             HStack {
                                 Text("Skill Level:")
@@ -56,13 +63,16 @@ struct MapView: View {
                     }
                 }
                 .padding()
+                .onTapGesture {
+                    if trailFilter.selectedTrail != nil {
+                        openMap(latitude: trailFilter.selectedTrail!.latitude, longitude: trailFilter.selectedTrail!.longitude, name: trailFilter.selectedTrail!.name)
+                    }
+                }
             }
         }
     }
     
-    func openMap() {
-        let latitude: CLLocationDegrees = 37.3349
-        let longitude: CLLocationDegrees = -122.00902
+    func openMap(latitude: Double, longitude: Double, name: String) {
 
         // Create a coordinate.
         let coordinate = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
@@ -71,7 +81,7 @@ struct MapView: View {
         let mapItem = MKMapItem(placemark: MKPlacemark(coordinate: coordinate))
 
         // Set the map item name if desired.
-        mapItem.name = "Place Name"
+        mapItem.name = name
 
         // Launch Maps with the map item.
         mapItem.openInMaps(launchOptions: nil)

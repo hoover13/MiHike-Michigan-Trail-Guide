@@ -23,7 +23,7 @@ struct TrailDetailRow: View {
                     .background(.brown)
                     .cornerRadius(20)
                 VStack(alignment: .leading) {
-                    Text(trail.name)
+                    Text(trail.city)
                     Text("Length: \(trail.length, specifier: "%.1f") miles")
                     HStack {
                         Text("Skill Level:")
