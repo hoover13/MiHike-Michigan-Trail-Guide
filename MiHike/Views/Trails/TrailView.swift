@@ -32,25 +32,34 @@ struct TrailView: View {
                     
                     HStack {
                         Spacer()
-                        ZStack {
-                            Circle()
-                                .frame(width: 80)
-                                .foregroundStyle(Color(red: 200/255, green: 221/255, blue: 168/255))
-                            Image(systemName: "figure.hiking")
+                        VStack {
+                            ZStack {
+                                Circle()
+                                    .frame(width: 50)
+                                    .foregroundStyle(Color(red: 200/255, green: 221/255, blue: 168/255))
+                                Image(systemName: "figure.hiking")
+                            }
+                            Text("Hiking")
                         }
                         Spacer()
-                        ZStack {
-                            Circle()
-                                .frame(width: 80)
-                                .foregroundStyle(Color(red: 200/255, green: 221/255, blue: 168/255))
-                            Image(systemName: "bicycle")
+                        VStack {
+                            ZStack {
+                                Circle()
+                                    .frame(width: 50)
+                                    .foregroundStyle(Color(red: 200/255, green: 221/255, blue: 168/255))
+                                Image(systemName: "bicycle")
+                            }
+                            Text("Skill Level")
                         }
                         Spacer()
-                        ZStack {
-                            Circle()
-                                .frame(width: 80)
-                                .foregroundStyle(Color(red: 200/255, green: 221/255, blue: 168/255))
-                            Image(systemName: "figure.walk")
+                        VStack {
+                            ZStack {
+                                Circle()
+                                    .frame(width: 50)
+                                    .foregroundStyle(Color(red: 200/255, green: 221/255, blue: 168/255))
+                                Image(systemName: "figure.walk")
+                            }
+                            Text("Random")
                         }
                         Spacer()
                     }
@@ -60,13 +69,13 @@ struct TrailView: View {
                         VStack {
                             ForEach(trails) { trail in
                                 TrailRow(trail: trail)
-                                    
+                                    .onTapGesture {
+                                        self.tabSelection = 2
+                                        
+                                    }
                             }
-                            
                         }
-                        .onTapGesture {
-                            self.tabSelection = 2
-                        }
+                        
                     }
                 }
                 .padding()

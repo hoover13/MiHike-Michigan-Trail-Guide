@@ -10,12 +10,13 @@ import MapKit
 
 struct MapView: View {
     @Binding var tabSelection: Int
+//    @Binding var selectedTrail: Trail
     var trail: Trail
     var body: some View {
         VStack {
             Map()
             
-            TrailDetailRow(trail: Trail(name: "Kensington Metropark", imageName: "Kensington", city: "Milford, MI", skillLevel: .green,latitude: 42.524785600495,longitude: -83.64220030267423, trailType: "Paved", length: 9.5, price: "No Fucking Clue"))
+            TrailDetailRow(trail: Trail(name: "Kensington Metropark", imageName: "Kensington", city: "Milford, MI", skillLevel: .green,latitude: 42.524785600495,longitude: -83.64220030267423, trailType: "Paved", length: 9.5, price: "State Pass"))
                 .onTapGesture {
                     openMap()
                 }

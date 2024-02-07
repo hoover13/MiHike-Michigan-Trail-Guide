@@ -19,6 +19,7 @@
 		1658DD862B7102AF000717B9 /* TipsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1658DD852B7102AF000717B9 /* TipsCardView.swift */; };
 		1658DD882B710B41000717B9 /* TrailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1658DD872B710B41000717B9 /* TrailRow.swift */; };
 		1658DD8A2B7115DC000717B9 /* TrailDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1658DD892B7115DC000717B9 /* TrailDetailRow.swift */; };
+		1658DDAF2B72D201000717B9 /* TrailCategoryCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1658DDAE2B72D201000717B9 /* TrailCategoryCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		1658DD852B7102AF000717B9 /* TipsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsCardView.swift; sourceTree = "<group>"; };
 		1658DD872B710B41000717B9 /* TrailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailRow.swift; sourceTree = "<group>"; };
 		1658DD892B7115DC000717B9 /* TrailDetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailDetailRow.swift; sourceTree = "<group>"; };
+		1658DDAE2B72D201000717B9 /* TrailCategoryCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailCategoryCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				161343A42B6D7DA600CA3B65 /* TrailView.swift */,
+				1658DDAE2B72D201000717B9 /* TrailCategoryCircle.swift */,
 				1658DD872B710B41000717B9 /* TrailRow.swift */,
 				1658DD892B7115DC000717B9 /* TrailDetailRow.swift */,
 			);
@@ -198,6 +201,7 @@
 				161343AB2B6D7EF500CA3B65 /* Trail.swift in Sources */,
 				1658DD842B71021A000717B9 /* TipsView.swift in Sources */,
 				1658DD8A2B7115DC000717B9 /* TrailDetailRow.swift in Sources */,
+				1658DDAF2B72D201000717B9 /* TrailCategoryCircle.swift in Sources */,
 				1658DD882B710B41000717B9 /* TrailRow.swift in Sources */,
 				1613436B2B6C9CF100CA3B65 /* MiHikeApp.swift in Sources */,
 				161343A12B6D760900CA3B65 /* SplashScreenView.swift in Sources */,
@@ -344,6 +348,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -373,6 +378,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

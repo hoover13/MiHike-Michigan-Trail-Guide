@@ -17,8 +17,10 @@ struct TipsCardView: View {
             Image("bg")
                 .resizable()
                 .frame(width: 320, height: 420)
-                .border(.white, width: 6.0)
-                .cornerRadius(4)
+                .cornerRadius(30)
+                .padding(5)
+                .background(.brown)
+                .cornerRadius(30)
                 .foregroundStyle(color.opacity(0.9))
                 .shadow(radius: 4)
             HStack {

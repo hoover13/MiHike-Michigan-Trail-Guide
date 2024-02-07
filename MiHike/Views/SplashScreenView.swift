@@ -20,9 +20,13 @@ struct SplashScreenView: View {
                     .resizable()
                     .ignoresSafeArea()
                 
-                Image("logo object")
-                    .resizable()
-                    .frame(width: 200, height: 200)
+                VStack(spacing: 50) {
+                    Image("MiHike Title")
+                      
+                    Image("logo object")
+                        .resizable()
+                        .frame(width: 250, height: 250)
+                }
             }
             .onAppear {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {

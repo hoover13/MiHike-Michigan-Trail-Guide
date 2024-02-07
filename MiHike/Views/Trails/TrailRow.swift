@@ -16,6 +16,7 @@ struct TrailRow: View {
             Image(trail.imageName)
                 .resizable()
                 .frame(width: 180, height: 180)
+                .cornerRadius(20)
                 .padding(5)
                 .background(.brown)
                 .cornerRadius(20)
@@ -32,5 +33,5 @@ struct TrailRow: View {
 }
 
 #Preview {
-    TrailRow(trail:  Trail(name: "Kensington Metropark", imageName: "5", city: "Milford, MI", skillLevel: .green,latitude: 42.524785600495,longitude: -83.64220030267423, trailType: "Paved", length: 9.5, price: "No Fucking Clue"))
+    TrailRow(trail:  Trail(name: "Kensington Metropark", imageName: "5", city: "Milford, MI", skillLevel: .green,latitude: 42.524785600495,longitude: -83.64220030267423, trailType: "Paved", length: 9.5, price: "Require State Pass"))
 }
