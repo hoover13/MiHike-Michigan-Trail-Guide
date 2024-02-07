@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MainTabView: View {
     @State var tabSelection = 1
-    
+    @EnvironmentObject var trailFilter: TrailFilter
     var body: some View {
         
         TabView(selection: $tabSelection) {
@@ -22,7 +22,7 @@ struct MainTabView: View {
                 }
                 .tag(1)
             
-            MapView(tabSelection: $tabSelection, trail: Trail(name: "Kensington Metropark", imageName: "Kensington", city: "Milford, MI", skillLevel: .green,latitude: 42.524785600495,longitude: -83.64220030267423, trailType: "Paved", length: 9.5, price: "Requires State Park Pass"))
+            MapView(tabSelection: $tabSelection, trail: trailFilter.selectedTrail ?? Trail(name: "Kensington Metropark", imageName: "Kensington", city: "Milford, MI", skillLevel: .green,latitude: 42.524785600495,longitude: -83.64220030267423, trailType: "Paved", length: 9.5, price: "State Pass"))
                 .tabItem {
                     VStack {
                         Image(systemName: "map.fill")

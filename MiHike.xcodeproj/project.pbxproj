@@ -20,6 +20,7 @@
 		1658DD882B710B41000717B9 /* TrailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1658DD872B710B41000717B9 /* TrailRow.swift */; };
 		1658DD8A2B7115DC000717B9 /* TrailDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1658DD892B7115DC000717B9 /* TrailDetailRow.swift */; };
 		1658DDAF2B72D201000717B9 /* TrailCategoryCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1658DDAE2B72D201000717B9 /* TrailCategoryCircle.swift */; };
+		16E916462B7350EC0074C631 /* TrailFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E916452B7350EC0074C631 /* TrailFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		1658DD872B710B41000717B9 /* TrailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailRow.swift; sourceTree = "<group>"; };
 		1658DD892B7115DC000717B9 /* TrailDetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailDetailRow.swift; sourceTree = "<group>"; };
 		1658DDAE2B72D201000717B9 /* TrailCategoryCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailCategoryCircle.swift; sourceTree = "<group>"; };
+		16E916452B7350EC0074C631 /* TrailFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				161343A42B6D7DA600CA3B65 /* TrailView.swift */,
+				16E916452B7350EC0074C631 /* TrailFilter.swift */,
 				1658DDAE2B72D201000717B9 /* TrailCategoryCircle.swift */,
 				1658DD872B710B41000717B9 /* TrailRow.swift */,
 				1658DD892B7115DC000717B9 /* TrailDetailRow.swift */,
@@ -198,6 +201,7 @@
 			files = (
 				161343A72B6D7DB100CA3B65 /* MapView.swift in Sources */,
 				1658DD862B7102AF000717B9 /* TipsCardView.swift in Sources */,
+				16E916462B7350EC0074C631 /* TrailFilter.swift in Sources */,
 				161343AB2B6D7EF500CA3B65 /* Trail.swift in Sources */,
 				1658DD842B71021A000717B9 /* TipsView.swift in Sources */,
 				1658DD8A2B7115DC000717B9 /* TrailDetailRow.swift in Sources */,

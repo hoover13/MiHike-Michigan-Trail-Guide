@@ -12,6 +12,7 @@ struct MiHikeApp: App {
     var body: some Scene {
         WindowGroup {
             SplashScreenView()
+                .environmentObject(TrailFilter())
         }
     }
 }

@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct TrailView: View {
+    @EnvironmentObject var trailFilter: TrailFilter
     @State var selectedItem = 0
     @Binding var tabSelection: Int
     var body: some View {
         
-      
             ZStack {
                 Image("bg")
                     .resizable()
@@ -71,7 +71,7 @@ struct TrailView: View {
                                 TrailRow(trail: trail)
                                     .onTapGesture {
                                         self.tabSelection = 2
-                                        
+                                        trailFilter.selectedTrail = trail
                                     }
                             }
                         }
